@@ -1,0 +1,10 @@
+Client 
+	npm init vite OR npm i vite
+	npm i bootstrap axios react-router-dom
+	npm run dev
+
+Server
+	npm init -y
+	npm i express mongoose cors nodemon
+	npm start 
+
