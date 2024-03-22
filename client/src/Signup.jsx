@@ -11,7 +11,7 @@ function Signup() {
     
     function handleSubmit(e) {
         e.preventDefault();
-        axios.post('http://localhost:4000/register', { name, email, password })
+        axios.post('https://login-2-x5br.onrender.com/register', { name, email, password })
 
             .then(result => {
                 console.log(result);
