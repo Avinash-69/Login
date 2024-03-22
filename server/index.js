@@ -48,6 +48,13 @@ app.post('/register', (req,res) => {
     .catch(err => res.json(err))
 })
 
+app.get("/", (req,res,next) => {
+    return res.status(200).json({
+        success: true,
+        message: "HELLO WORLD"
+    });
+});
+
 
 app.listen(process.env.PORT, () => {
     console.log(`Server Running On Port ${process.env.PORT}`)
